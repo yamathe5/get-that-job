@@ -1,0 +1,27 @@
+.job-card{
+  width: 29rem;
+  height: 17rem;
+  padding: 1.8rem;
+  display: grid;
+  grid: 8rem auto / 30% 20% 50%;
+  &__img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: red;
+    width:"100px";
+    height:"100px"
+  }
+  &__info{
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+  &__buttons{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+    button {
+      cursor: pointer;
+    }
+  }
+}
